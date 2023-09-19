@@ -1,0 +1,79 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Poppins:wght@700;800;900&family=Skranji:wght@700&display=swap');
+
+body{
+    background-color:#3B1D52;
+}
+.logo{
+    font-family: 'Skranji', cursive;
+    font-weight: 700;
+}
+.img-btn{
+    background-color: #FFD700;
+    border-radius: 10px;
+    padding: 15px;
+    border:none;
+    text-align: center;
+    font-weight: bolder;
+    width: 100%;
+}
+h1{
+    font-family: 'Skranji', cursive;
+    font-weight: 700;
+    font-size: 48px !important;
+    color:#FFD700;
+}
+h4{
+    display: inline-block;
+    border-bottom: 1px solid #FFD700;
+    border-top: 1px solid #FFD700;
+    font-size: 30px;
+    padding: 5px;
+}
+.content > p{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    text-align: left;
+}
+.images{
+   width:100%;
+   /* padding: 10px;; */
+
+}
+.card-section{
+    text-align: center;
+    
+}
+
+@media (max-width:768px) {
+    .main{
+        flex-direction:column;
+        padding-top:29px ;
+        
+    }
+    .main > .images > img{
+        width: 500px;
+    }
+    .images{
+        padding: 17x;
+    }
+    .images >img{
+        width: 450px !important;
+    }
+}

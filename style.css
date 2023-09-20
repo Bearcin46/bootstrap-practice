@@ -38,6 +38,12 @@ h5{
     font-weight: 400;
     font-size: 20px;
 }
+.dropdown-menu{
+    background-color: #3B1D52;
+}
+.dropdown-menu > li > a{
+    color: #FFD700;
+}
 .main{
     display:flex;
     flex-direction: row;
